@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.contenedor{
+    background-image: url(/img/wuwy.jpg);
+    image-rendering: optimizeQuality;
+    background-size:cover;
+    height: 700px;
+}
+/*
+<video src="/img/Dunaspublici2.mov" autoplay="true" muted="true" loop="true" ></video>
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 720px;
+    z-index: -1;
+}
+*/
+#Usuario{
+    display: flex;
+    height: 100px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+#Usuario div{
+    padding-right: 25px;
+}
+a.pr{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#Usuario a{
+    padding: 10px;
+    text-decoration: none;
+}
+#Usuario a.pr:hover {
+    font-size: 20px;
+    text-decoration-thickness: 4px;
+    text-decoration-line: underline;
+}
+.logo{
+    padding-left: 20px;
+    width: 600px;
+    height: 100px;
+}
+.imglogo{
+    width: 230px;
+    height: 100px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content:space-around;
+    height: 50px;
+    bottom: 0;
+    padding: 1em;
+    background-color: black;
+}
+footer p{
+    padding-top:15px ;
+    align-items: center;
+    text-align: center;
+    align-items:center;
+    color: white;
+}
+.inxServicios{
+    padding: 25px;
+}
+.servicio{
+    padding: 20px;    
+}
+.imgServicios{
+    image-rendering: optimizeQuality;
+    height: 300px;
+    width: 300px;
+    border-radius: 180px;
+}
+.titulo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+}
+.tituloG{
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
+.p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.leermas a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body_nosotros{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+}
+#abus1{
+    background-color: rgb(57, 79, 99);
+}
+.contenidosN{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.tituloN{
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    color: white;
+}
+.tituloNO{
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    color: black;
+    padding-left: 50px;
+}
+.pN{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+a.prr{
+    font-family: 'Fredoka One', cursive;
+    color: black;
+}
+#Usuario a.prr:hover {
+    font-size: 20px;
+    text-decoration-thickness: 4px;
+    text-decoration-line: underline;
+}
+#abus{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#abusra{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(80, 168, 250);
+}
+
+#abusto{
+
+    margin-bottom: 40px;
+    margin-left: 350px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#info{
+    background-color: rgba(255, 255, 255, 0.336);
+    max-width: 250px;
+}
+#info .tituloN{
+    font-size: 40px;
+    color: black;
+    padding-bottom: 10px;
+}
+#info .pN{
+    color: black;
+    text-align: justify;
+}
+.visitweb{
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    border-color: rgb(43, 188, 255);
+    background-color: rgb(43, 188, 255);
+    border-radius: 10px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.leermas{
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    border-color:black;
+    background-color: black;
+    border-radius: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#info .leermas{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.supergaleria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    height: 620px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    
+}
+.contgallery{
+    height: 670px;
+}
+div.gallery:hover {
+    border: 2px solid #777;
+    width: 370px;
+    border-radius: 20px;
+}
+  
+div.gallery img {
+    width: 95%;
+    padding: 10px;
+    max-height: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+.desc{
+    margin: 10px;
+}
+.desc .leermas{
+    margin-top: 15px;
+}
+.leermas:hover{
+    background-color: white;
+}
+.leermas:hover a{
+    color: black;
+}
+footer a{
+    margin-left: 700px;
+}
+.climaimg{
+    
+    width: 55px;
+    height: 50px;
+}
+.mapa{
+    padding: 20px;
+}
+#mapa{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contcontacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+textarea{
+    resize: none;
+}
+.formcontenido{
+    padding: 10px;
+}
+.in{
+    padding-top: 10px;
+}
+label.titulo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color: black;
+}
+input.relleno{
+    padding: 5px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#mensaje{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+label,option{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.in select,option{
+    width: 400px;
+    font-size: 15px;
+    height: 30px;
+}
+.visitweb:hover{
+    background-color: rgb(26, 125, 172);
+}
+#cancelar{
+    border-color: rgb(177, 28, 28);
+    background-color: rgb(204, 26, 26);
+}
+#cancelar:hover{
+    background-color: rgb(150, 22, 22);
+}
+form{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 30px;
+    background-color: rgb(122, 165, 206);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#enviarcancelar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

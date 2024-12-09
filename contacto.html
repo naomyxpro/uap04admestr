@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav id="Usuario">
+        <div class="logo">
+            <img src="/img/logonegro.PNG" alt="logo" class="imglogo">
+        </div>
+        <div class="menu">
+            <a href="index.html" class="prr">HOME</a>
+            <a href="nosotros.html" class="prr">NOSOTROS</a>
+            <a href="servicios.html" class="prr">SERVICIOS</a>
+            <a href="contacto.html" class="prr">CONTACTO</a>
+            <a href="objetivos.html" class="prr">OBJETIVOS</a>
+        </div>
+    </nav>
+    <div class="contcontacto">
+        <form action="" method="">
+            <div class="formcontenido">
+                <label for="nombre"class="titulo">Nombre y Apellido</label>
+                <div class="in">
+                    <input type="text" name="nombre" id="nombre" class="relleno" required placeholder="Nombre Completo">
+                    <span id="ayuydaNombre"></span>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <label for="email"class="titulo">Email</label>
+                <div class="in">
+                    <input type="email" name="email" id="email"  class="relleno" required placeholder="user@gmail.com">
+                    <span id="ayuydaEmail"></span>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <input type="checkbox" name="confirmacion" id="confirmacion">
+                <label for="confirmacion">Enviame un email de confirmacion</label>
+            </div>
+            <div class="formcontenido">
+                <label for="asunto"class="titulo">Asunto</label>
+                <div class="in">
+                    <input type="text" name="asunto" id="asunto" class="relleno"  required placeholder="Deseo recibir más información">
+                    <span id="ayuydaAsunto"></span>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <label for="suscripcion" class="titulo">¿Cómo conociste WorldPet?</label>
+                <div class="in">
+                    <input type="radio" name="suscripcion" id="newsPromo" value="newsPromo" checked>
+                    <label for="newsPromo">Los vi en Tiktok</label>
+                </div>
+                <div class="in">
+                    <input type="radio" name="suscripcion" id="news" value="news">
+                    <label for="news">Los vi en Facebook</label>
+                </div>
+                <div class="in">
+                    <input type="radio" name="suscripcion" id="noNewsPromo" value="noNewsPromo">
+                    <label for="noNewsPromo">Un amigo los recomendó</label>
+                </div>
+                <div class="in">
+                    <input type="radio" name="suscripcion" id="noNewsPromo" value="noNewsPromo">
+                    <label for="noNewsPromo">Ninguna</label>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <label for="conciertos" class="titulo">¿Desde dónde nos escribes?</label>
+                <div class="in">
+                    <select name="conciertos" id="paises">
+                        <option value="CON1" selected>Bolivia</option>
+                        <option value="CON2">Estados Unidos</option>
+                        <option value="CON3">Perú</option>
+                        <option value="CON4">México</option>
+                        <option value="CON5">Chile</option>
+                        <option value="CON6">Colombia</option>
+                        <option value="CON7">Ecuador</option>
+                        <option value="CON8">Argentina</option>
+                        <option value="CON9">Otro</option>
+                    </select>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <label for="mensaje"class="titulo">Mensaje</label>
+                <div class="in"><textarea id="mensaje" name="mensaje" rows="10" cols="54"></textarea></div>
+            </div>
+            <div class="formcontenido" id="enviarcancelar">
+                <input type="submit" class="visitweb" value="Enviar">
+                <input type="reset" class="visitweb" id="cancelar" value="Cancelar">
+            </div>
+        </form>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.757716494052!2d-70.56964372527327!3d-33.58563940444669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d6e723f2a369%3A0x2773f842e8ed91be!2sWorldpet%20Alimentos%20y%20Accesorios%20para%20Mascotas!5e0!3m2!1ses!2sbo!4v1733764932054!5m2!1ses!2sbo" width="600" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+        </div>
+    </div>
+    <script src="scriptcontacto.js">
+
+    </script>
+</body>
+<footer>
+    <p> Copyright © 2022 derechos reservados. Santa Cruz - Bolivia</p>
+    <a href="clima.html"><img src="kisspng-ios-7-weather-computer-icons-iphone-ios-5adab94196a697.3057354815242837136171.png" alt="clima" class="climaimg"></a><
+</footer>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilosjs.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Clima</title>
+</head>
+<body>
+    <nav id="Usuario">
+        <div class="logo">
+            <img src="/img/logonegro.PNG" alt="logo" class="imglogo">
+        </div>
+        <div class="menu">
+          <a href="index.html" class="pr">HOME</a>
+          <a href="nosotros.html" class="pr">NOSOTROS</a>
+          <a href="servicios.html" class="pr">SERVICIOS</a>
+          <a href="contacto.html" class="pr">CONTACTO</a>
+          <a href="objetivos.html" class="pr">OBJETIVOS</a>
+      </div>
+    </nav>
+      <section class="top-banner">
+        <div class="contenedor">
+          <h1 class="cabecera">Indique Pais :</h1>
+          <form>
+            <input type="text" placeholder="Ingrese una ciudad o pais" autofocus>
+            <button type="submit">Enviar</button>
+            <span class="msg"></span>
+          </form>
+        </div>
+      </section>
+      <section class="seccion-con-ajax">
+        <div class="contenedor">
+          <ul class="ciudades"></ul>
+        </div>
+      </section>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p> Copyright © 2022 derechos reservados. Santa Cruz - Bolivia</p>
+    <a href="clima.html"><img src="kisspng-ios-7-weather-computer-icons-iphone-ios-5adab94196a697.3057354815242837136171.png" alt="clima" class="climaimg"></a>
+</footer>
+</html>
